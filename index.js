@@ -61,5 +61,5 @@ numbers.forEach(printMyNumber);
 
 // console.log(total);
 
-// printMyName("nikho");
-// printMyNameAgain("nikho");
+printMyName("nikho");
+printMyNameAgain("nikho");
