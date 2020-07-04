@@ -1,3 +1,6 @@
+const addANumber = require("./another");
+const express = require("express");
+
 var name = "nikho";
 
 let lastName = "sagala";
@@ -12,6 +15,7 @@ name = "another name";
 
 lastName = "another";
 
+console.log(addANumber(10));
 // age = 25;
 
 // console.log(lastName);
@@ -41,7 +45,7 @@ let numbers = [10, 11, 23, 38];
 
 for (let index = 0; index < numbers.length; index++) {
   const element = numbers[index];
-  console.log(element);
+  //   console.log(element);
 }
 
 console.log();
@@ -55,7 +59,7 @@ function printMyNumber(number) {
 
 numbers.forEach(printMyNumber);
 
-console.log(total);
+// console.log(total);
 
-printMyName("nikho");
-printMyNameAgain("nikho");
+// printMyName("nikho");
+// printMyNameAgain("nikho");

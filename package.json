@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Nikho Sagala <nikhosagala@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1"
+  }
 }
